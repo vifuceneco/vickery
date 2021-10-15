@@ -1,19 +1,23 @@
-.NavBar {
+.Header {
+    display: flex;
     background-color: rgb(202, 201, 201);
-    text-align: right;
-    padding: 15px;
-    padding-left: 50px;
+    justify-content: flex-end;
+    padding: 20px 100px 20px 100px;
+}
+
+.NavBar ul {
+    display: flex;  
+}
+
+.NavBar ul li {
     padding-right: 50px;
-    margin: 10px;
+    list-style: none;
+    
 }
 
-.NavBar li {
-    display: inline;
-    padding: 20px;
-}
 
-.NavBar a {
+.NavBar ul li a {
     text-decoration: none;
     color: black;
-    font-weight: bold;
 }
+
