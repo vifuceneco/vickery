@@ -1,0 +1,14 @@
+.Counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Counter p {
+    padding: 20px;
+}
+
+.Counter button {
+    width: 100px;
+    height: 50px;
+}
