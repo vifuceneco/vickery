@@ -3,16 +3,22 @@ import { ItemListContainer } from './components/ItemListContainer/ItemListContai
 import { NavBar } from './components/NavBar/Navbar'
 import { ItemCount } from './components/ItemCount/ItemCount'
 import { ItemDetailContainer } from './components/ItemDetailContainer/ItemDetailContainer';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-    <NavBar />
-    <ItemListContainer saludo="Bienvenidos!"/>
-    <ItemDetailContainer />
-    <ItemCount stock="10" />
-    </div>
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={
+        <div>
+        <ItemListContainer saludo="Bienvenidos!"/>,
+        <ItemDetailContainer />,
+        <ItemCount stock="10" />
+        </div>
+        } />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
