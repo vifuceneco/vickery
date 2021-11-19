@@ -1,0 +1,31 @@
+export const PRODUCTS = [
+    {
+        id: 12,
+        name: "Cupcake",
+        emoji: "🧁",
+        price: 120,
+        featured: true,
+        img: null,
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nam eum eligendi quae excepturi, repellat provident animi molestias et facere?",
+        stock: 20,
+    },
+    {
+        id: 99,
+        name: "Torta de Chocolate",
+        emoji: "🎂",
+        price: 500,
+        featured: true, 
+        img: null,
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nam eum eligendi quae excepturi, repellat provident animi molestias et facere?",
+        stock: 50,
+    },
+    {
+        id: 2,
+        name: "Galletita",
+        emoji: "🍪",
+        price: 75,
+        featured: false, 
+        img: null,
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nam eum eligendi quae excepturi, repellat provident animi molestias et facere?",
+    },
+];
